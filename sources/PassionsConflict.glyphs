@@ -33611,16 +33611,7 @@ note = robbie;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = PassionsConflictPro;
-},
-{
-name = postscriptFontName;
-value = PassionsConflictPro;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "0CF23081-C341-41E4-8FF8-6B151438961F" = 1;
 };
