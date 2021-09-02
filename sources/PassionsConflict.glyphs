@@ -2,7 +2,9 @@
 .appVersion = "1352";
 DisplayStrings = (
 abcdefghijklmnopqrstuvwxyz,
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+"/f_f",
+"/.notdef"
 );
 copyright = "Copyright 2004 The Hurricane Project Authors (https://github.com/googlefonts/passions-conflict)";
 customParameters = (
@@ -115,11 +117,11 @@ capHeight = 475;
 customParameters = (
 {
 name = typoAscender;
-value = 850;
+value = 830;
 },
 {
 name = typoDescender;
-value = -350;
+value = -320;
 },
 {
 name = typoLineGap;
@@ -127,11 +129,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 850;
+value = 830;
 },
 {
 name = hheaDescender;
-value = -350;
+value = -320;
 },
 {
 name = hheaLineGap;
@@ -209,11 +211,61 @@ xHeight = 170;
 glyphs = (
 {
 glyphname = .notdef;
-lastChange = "2021-05-20 05:56:00 +0000";
+lastChange = "2021-09-02 21:53:36 +0000";
 layers = (
 {
 layerId = "0CF23081-C341-41E4-8FF8-6B151438961F";
-width = 313;
+paths = (
+{
+closed = 1;
+nodes = (
+"453 -5 LINE",
+"464 7 LINE",
+"464 575 LINE",
+"453 587 LINE",
+"62 587 LINE",
+"50 575 LINE",
+"50 7 LINE",
+"62 -5 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"157 139 LINE",
+"240 292 LINE",
+"157 443 LINE",
+"168 465 LINE",
+"251 314 LINE",
+"336 466 LINE",
+"349 443 LINE",
+"263 290 LINE",
+"349 139 LINE",
+"336 117 LINE",
+"251 267 LINE",
+"168 117 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"76 561 LINE",
+"440 561 LINE",
+"440 21 LINE",
+"76 21 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"417 40 LINE",
+"417 538 LINE",
+"97 538 LINE",
+"97 40 LINE"
+);
+}
+);
+width = 514;
 }
 );
 note = .notdef;
@@ -251,6 +303,17 @@ width = 313;
 );
 note = space;
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "0CF23081-C341-41E4-8FF8-6B151438961F";
+width = 313;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = A;
@@ -19536,19 +19599,20 @@ unicode = 017C;
 },
 {
 glyphname = f_f;
-lastChange = "2021-05-20 05:56:00 +0000";
+lastChange = "2021-09-02 21:52:25 +0000";
 layers = (
 {
 components = (
 {
 name = f;
+transform = "{1, 0, 0, 1, 164, 0}";
 },
 {
 name = f;
 }
 );
 layerId = "0CF23081-C341-41E4-8FF8-6B151438961F";
-width = 154;
+width = 318;
 }
 );
 leftMetricsKey = f;
@@ -19556,46 +19620,41 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2021-05-20 05:56:00 +0000";
+lastChange = "2021-09-02 21:52:56 +0000";
 layers = (
 {
 components = (
 {
-name = f;
-},
-{
-name = f;
+name = f_f;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 123, 0}";
+transform = "{1, 0, 0, 1, 287, 0}";
 }
 );
 layerId = "0CF23081-C341-41E4-8FF8-6B151438961F";
-width = 294;
+width = 458;
 }
 );
 leftMetricsKey = f;
+rightMetricsKey = i;
 },
 {
 glyphname = f_f_l;
-lastChange = "2021-05-20 05:56:00 +0000";
+lastChange = "2021-09-02 22:23:37 +0000";
 layers = (
 {
 components = (
 {
-name = f;
-},
-{
-name = f;
+name = f_f;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 139, 0}";
+transform = "{1, 0, 0, 1, 314, 0}";
 }
 );
 layerId = "0CF23081-C341-41E4-8FF8-6B151438961F";
-width = 300;
+width = 475;
 }
 );
 leftMetricsKey = f;
