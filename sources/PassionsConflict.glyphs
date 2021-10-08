@@ -10,7 +10,8 @@ DisplayStrings = (
 "ó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave ö/odieresismacron/dotaccentcomb/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/ohungarumlaut/oinvertedbreve/omacron/oogonek ø/oslashacute õ/otildemacron",
 "/Odieresismacron/dotaccentcomb.case/Odotaccentmacron",
 "½¼¾",
-"1/Placeholder/space 2/Placeholder/space 3/Placeholder/space 4/Placeholder/space 5/Placeholder/space 6/Placeholder/space 7/Placeholder/space 8/Placeholder/space 9/Placeholder \0121ª/space 2n/space nnn1nnn2nnn3nnn4nnn57ªº"
+"1/Placeholder/space 2/Placeholder/space 3/Placeholder/space 4/Placeholder/space 5/Placeholder/space 6/Placeholder/space 7/Placeholder/space 8/Placeholder/space 9/Placeholder \0121ª/space 2n/space nnn1nnn2nnn3nnn4nnn57ªº",
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 );
 classes = (
 {
@@ -133,11 +134,11 @@ capHeight = 475;
 customParameters = (
 {
 name = typoAscender;
-value = 830;
+value = 750;
 },
 {
 name = typoDescender;
-value = -320;
+value = -350;
 },
 {
 name = typoLineGap;
@@ -145,11 +146,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 830;
+value = 750;
 },
 {
 name = hheaDescender;
-value = -320;
+value = -350;
 },
 {
 name = hheaLineGap;
@@ -37275,5 +37276,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
